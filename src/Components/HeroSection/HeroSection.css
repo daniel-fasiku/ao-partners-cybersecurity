@@ -1,0 +1,94 @@
+.hero-section-container {
+    background-image: url("../../assets/hero-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 792px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+.hero-section-left {
+    width: 60%;
+    padding-top: 102px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-section-left-text1 {
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.hero-section-left-text2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0px;
+    max-width: 80%;
+}
+.hero-section-left-button {
+    width: 162px;
+    padding: 0px 20px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #F23935;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.hero-section-left-button:hover {
+    background-color: #ffffff;
+    color: #F23935;
+    transform: scale(1.05);
+}   
+.hero-section-right {
+}
+.hero-section-right-image {
+    width: 455px;
+    height: 680px;
+}   
+
+@media screen and (max-width: 767px) {
+    .hero-section-container {
+        padding: 150px 10px;
+        height: 900px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        gap: 100px;
+    }
+    .hero-section-left {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-top: 0px;
+    }
+    .hero-section-left-text1 {
+        font-size: 35px;
+    }
+    .hero-section-left-text2 {
+        font-size: 14px;
+        max-width: 90%;
+    }
+    .hero-section-left-button {
+        height: 40px;
+        font-size: 14px;
+    }
+    .hero-section-right-image {
+        width: 227.5px;
+        height: 341.5px;
+    }
+}
+
