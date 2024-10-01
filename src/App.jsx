@@ -3,16 +3,19 @@ import HomePage from "./Pages/HomePage/HomePage";
 import NavBar from "./Components/NavBar/NavBar";
 import Footer from './Components/Footer/Footer'
 import './index.css'
+import ScrollToTop from "./Components/ScrollToTop";
+import "./App.css";
+
 
 const App = () => {
   return (
     <BrowserRouter>
-      <NavBar />
+      <NavBar />    
+      <ScrollToTop />
       <Routes>
         <Route index element={<HomePage />} />
       </Routes>
       <Footer />
-      
     </BrowserRouter>
   )
 }
