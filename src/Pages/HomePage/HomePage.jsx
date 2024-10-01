@@ -1,3 +1,9 @@
+
+import React from 'react'
+import ContactForm from '../../Components/ContactUs/ContactUs'
+import Pricing from '../../Components/Pricing/Pricing'
+import RequestDemo from '../../Components/RequestDemo/RequestDemo'
+import ExtraSection from '../../Components/ExtraSection/ExtraSection'
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import AboutImage from "../../assets/section-image1.png";
 import AboutImage2 from "../../assets/section-image2.png";
@@ -8,6 +14,7 @@ import { Icon } from "@iconify/react";
 import { securityData1, blogData } from "../../data";
 import { useState } from "react";
 import "./HomePage.css";
+
 
 const HomePage = () => {
   const [securityDataId, setSecurityDataId] = useState(null);
@@ -22,6 +29,9 @@ const HomePage = () => {
   };
 
   return (
+
+    <div className='w-full overflow-x-hidden flex flex-col justify-center items-center'>
+
     <div className="home-page-container" >
       <HeroSection />
       <section className="home-page-track-record">
@@ -150,6 +160,11 @@ const HomePage = () => {
           }
         </div>
       </section>
+<Pricing />
+    <ExtraSection />
+    
+    <ContactForm />
+    <RequestDemo />
     </div>
   )
 }

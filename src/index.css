@@ -6,10 +6,10 @@
   font-family: Inter, Space Grotesk, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: #1E1E1E;
   background-color: #ffffff;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,8 +19,18 @@
 
 body {
   margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+
   min-height: 100vh;
   overflow-x: hidden;
+
 }
 
 
