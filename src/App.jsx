@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
 import NavBar from "./Components/NavBar/NavBar";
-import Footer from "./Components/Footer/Footer";
+import Footer from './Components/Footer/Footer'
+import './index.css'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Route index element={<HomePage />} />
       </Routes>
       <Footer />
+      
     </BrowserRouter>
   )
 }
