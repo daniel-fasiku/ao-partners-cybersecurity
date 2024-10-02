@@ -17,12 +17,12 @@ export const navLink = [
     {
         id: 3,
         pageName: "Pricing",
-        link: "/pricing"
+        link: "/#pricing"
     },
     {
         id: 4,
         pageName: "Contact Us",
-        link: "/contact"
+        link: "/#contact"
     },
 ];
 

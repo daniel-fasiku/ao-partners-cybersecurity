@@ -4,13 +4,13 @@ import React from 'react';
 export default function ContactForm() {
 
   return (
-    <div className="isolate  bg-white px-4 pt-8 pb-24 sm:pb-32  lg:px-8 w-full ">
+    <div  className="isolate  bg-white  pb-24 sm:pb-32 w-full ">
       
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="tracking-tight text-3xl text-[#282828]  font-semibold ">Contact Us</h2>
         
       </div>
-      <form action="#" method="POST" className="mx-auto text-[#282828] mt-8 sm:mt-10 w-full">
+      <form action="#" method="POST" className="mx-auto text-[#282828] mt-8 sm:mt-10 w-full max-w-screen-xl">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className='flex flex-col gap-2'>
           <div>
@@ -102,8 +102,8 @@ export default function ContactForm() {
               />
             </div>
           </div>
-          <button type='submit' class="relative flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-full">
-          <span class="relative z-10 font-semibold text-lg">Let's Talk</span>
+          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 relative hover:before:w-full">
+          <span class=" font-semibold text-lg z-10">Let's Talk</span>
         </button>
         </div>
           
