@@ -3,7 +3,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: #112244;
+    background-color: #2F77E6;
     padding: 15px 72px;
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,108 @@
     display: none;
 }
 
+/**! MEDIUM DESKTOP SCREENS **/
+@media screen and (min-width: 1104px) and (max-width: 1388px) {
+    .nav-container {
+        padding: 15px 42px;
+    }
+    .nav-logo {
+        width: 80px;
+    }
+    .nav-left-section {
+        gap: 80px;
+    }
+    .nav-btn {
+        padding: 10px 15px;
+    }
+}
+
+/**! SMALL DESKTOP SCREENS **/
+@media screen and (min-width: 1025px) and (max-width: 1103px) {
+    .nav-container {
+        padding: 15px 42px;
+    }
+    .nav-logo {
+        width: 80px;
+    }
+    .nav-left-section {
+        gap: 80px;
+    }
+    .nav-btn {
+        padding: 10px 15px;
+    }
+}
+
+/**! BIG TABS AND IPAD PRO **/
+@media screen and (min-width: 933px) and (max-width: 1024px) {
+    .nav-container {
+        padding: 15px 42px;
+    }
+    .nav-logo {
+        width: 80px;
+    }
+    .nav-left-section {
+        gap: 80px;
+    }
+    .nav-btn {
+        padding: 10px 15px;
+    }
+}
+
+/**! IPAD AIR, MINI AND SMALL TABS **/
+@media screen and (min-width: 768px) and (max-width: 932px) {
+    .nav-container {
+        padding: 15px 23px;
+    }
+    .nav-links-container {
+        display: none;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .nav-logo {
+        width: 80px;
+    }   
+    .nav-menu-icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        color: #ffffff;
+    }   
+    .nav-menu-container {
+        display: block;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;  
+        left: 30%;
+        right: 0px;
+        height: 100%;
+        background-color: #000000;
+    }
+    .nav-menu-links-container {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .nav-menu-link {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .nav-menu-close-icon {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        width: 24px;
+        height: 24px;
+        color: #FFFFFF;
+    }
+}
+
+/**! MOBILE SCREENS **/
 @media screen and (max-width: 767px) {
     .nav-container {
         padding: 15px 23px;
@@ -104,5 +206,6 @@
         right: 20px;
         width: 24px;
         height: 24px;
+        color: #FFFFFF;
     }
 }
