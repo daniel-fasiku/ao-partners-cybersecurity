@@ -4,7 +4,7 @@ import React from 'react';
 export default function ContactForm() {
 
   return (
-    <div  className="isolate  bg-white  pb-24 sm:pb-32 w-full ">
+    <div  className="isolate  bg-white py-10 lg:py-20  pb-24 sm:pb-32 w-full ">
       
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="tracking-tight text-3xl text-[#282828]  font-semibold ">Contact Us</h2>
@@ -102,7 +102,7 @@ export default function ContactForm() {
               />
             </div>
           </div>
-          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 relative hover:before:w-full">
+          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full">
           <span class=" font-semibold text-lg z-10">Let's Talk</span>
         </button>
         </div>

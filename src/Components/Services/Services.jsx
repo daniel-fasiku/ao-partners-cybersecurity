@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react';
-import "../../Pages/HomePage/HomePage.css"
+ import "../../Pages/HomePage/HomePage.css"
 import { Icon } from "@iconify/react";
 import { securityData1} from "../../data";
 
@@ -11,12 +11,12 @@ const Services = () => {
     setSecurityDataId((prevId) => (prevId === id ? null : id));
   };
   return (
-    <section className="home-page-services">
-      <div className="home-page-services-top">
-        <h3 className="home-page-services-title">
+    <section className="flex flex-col items-center justify-center gap-50 py-[70px] md:py-[100px] my-[70px] md:my-[100px] px-12 md:px-20 lg:px-32">
+      <div className="flex flex-col items-center justify-center">
+        <h3 className="font-medium text-center text-[30px] md:text-[40px] text-[#112244]">
           Our professional cyber security services
         </h3>
-        <p className="home-page-services-text">
+        <p className="max-w-screen-xl font-regular text-center text-[18px] md:text-[20px] text-[#7C7C7C]">
           We are a multi disciplinary firm of technology professionals. We are
           registered consultants with the World Bank, African Development Bank
           and listed on DACON.AO Partners enjoys an environment of continuous
@@ -26,7 +26,7 @@ const Services = () => {
           their communities.
         </p>
       </div>
-      <div className="home-page-services-bottom">
+      <div className="mt-[100px] gird grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-6">
         {securityData1.map((item) => (
           <>
             <div className="home-page-services-bottom-content" key={item.id}>

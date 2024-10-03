@@ -23,7 +23,7 @@ const HomePage = () => {
       <section id="about" className="w-full">
         <About />
       </section>
-      <section id="services" className="w-full">
+      {/* <section id="services" className="w-full">
         {" "}
         <Services />
       </section>
@@ -35,7 +35,7 @@ const HomePage = () => {
       </section>
       <section id="blogs" className="w-full">
         <Blogs />
-      </section>
+      </section> */}
 
       <section id="pricing" className="w-full px-4 lg:px-6 ">
         <Pricing />

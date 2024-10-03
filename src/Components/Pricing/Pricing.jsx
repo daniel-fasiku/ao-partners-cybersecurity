@@ -22,7 +22,7 @@ const Pricing = () => {
           className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
         />
       </div>
-      <div class="py-8 lg:py-16  mx-auto max-w-screen-xl ">
+      <div class="py-10 lg:py-20  mx-auto max-w-screen-xl ">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h1 class="mb-4 tracking-tight text-3xl text-[#282828] font-semibold">
             Pricing
@@ -147,7 +147,7 @@ const Pricing = () => {
                   setOrgSize("1-50 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -287,7 +287,7 @@ const Pricing = () => {
                   setOrgSize("50-100 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -428,7 +428,7 @@ const Pricing = () => {
                   setOrgSize("100 above Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -451,7 +451,7 @@ const Pricing = () => {
                   setOrgSize("");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -718,7 +718,7 @@ const Pricing = () => {
                         <button
                           type="submit"
                           onClick={() => setModalOpen(false)}
-                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 relative hover:before:w-full"
+                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full"
                         >
                           <span class=" font-semibold text-lg z-10">
                             Submit
