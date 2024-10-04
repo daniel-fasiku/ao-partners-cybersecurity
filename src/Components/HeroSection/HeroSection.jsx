@@ -1,12 +1,12 @@
 import { Icon } from "@iconify/react";
-import HeroImage from "../../assets/hero-image.jpg";
+import HeroImage from "../../assets/hero-image-2.jpg";
 import HeroBg from "../../assets/HeroBg.png"
 
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col w-full bg-white" >
-    <main className="lg:max-h-[calc(100vh-80px)] pb-[300px] lg:pb-0 bg-contain bg-bottom md:bg-contain bg-fixed md:bg-right xl:h-[768px] bg-no-repeat flex flex-col lg:flex-row justify-start items-start" 
+    <main className="lg:max-h-[calc(100vh-80px)] min-h-max pb-[300px] lg:pb-0 bg-contain bg-bottom bg-fixed md:bg-right xl:h-[768px] bg-no-repeat flex flex-col lg:flex-row justify-start items-start" 
     style={{ backgroundImage: `url(${HeroImage})` }}
     
     >
