@@ -18,7 +18,7 @@ const ExtraSection = () => {
                     <a class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden border-2 border-[#5488C7] text-[#5488C7]  shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#5488C7] before:text-white hover:text-white before:duration-500 before:ease-out hover:shadow-[#5488C7] hover:before:h-56 hover:before:w-72">
                      <span class="z-10 font-bold text-xl">Contact Us</span>
                      </a>
-                     <a class=" relative  flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72">
+                     <a class=" relative  flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 hover:before:w-72">
                      <span class="z-10 font-bold text-xl">Request Demo</span>
                      </a>
 

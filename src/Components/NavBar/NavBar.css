@@ -30,12 +30,12 @@
     transition: all 0.3s ease;
 }
 .nav-link:hover {
-    color: #F23935;
+    color: #EB6B69;
     text-decoration: underline;
 }
 .nav-btn {
     font-family: Inter;
-    background-color: #F23935;
+    background-color: #EB6B69;
     color: #fff;
     border: none;
     padding: 13px 20px;
@@ -47,7 +47,7 @@
 }
 .nav-btn:hover {
     background-color: #ffffff;
-    color: #F23935;
+    color: #EB6B69;
 }   
 .nav-menu-icon {
     display: none;

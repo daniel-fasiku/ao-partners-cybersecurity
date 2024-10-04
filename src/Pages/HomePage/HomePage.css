@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #F23935;
+    border: 1px solid #EB6B69;
     border-radius: 200px;
     height: 250px;
     width: 250px;
@@ -47,7 +47,7 @@
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
-    color: #F23935;
+    color: #EB6B69;
     margin: 0;
 }
 
@@ -55,7 +55,7 @@
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
-    color: #F23935;
+    color: #EB6B69;
     margin: 0;
 }
 
@@ -63,7 +63,7 @@
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
-    color: #F23935;
+    color: #EB6B69;
     margin: 0;
     text-transform: capitalize;
 }
@@ -119,7 +119,7 @@
     font-family: Inter;
     font-weight: 500;
     font-size: 40px;
-    color: #F23935;
+    color: #EB6B69;
     margin: 0px;
 }
 
@@ -142,7 +142,7 @@
     font-family: Space Grotesk;
     font-weight: 500;
     font-size: 40px;
-    color: #F23935;
+    color: #EB6B69;
     margin: 0px;
 }
 
@@ -303,9 +303,9 @@
     cursor: pointer;
 }
 .home-page-about-button {
-    background-color: #F23935;
+    background-color: #EB6B69;
     color: #FFFFFF;
-    border: 1px solid #F23935;
+    border: 1px solid #EB6B69;
     border-radius: 4px;
     padding: 10px 20px;
     margin-top: 15px;
@@ -316,12 +316,12 @@
 
 .home-page-about-button:hover {
     background-color: #FFFFFF;
-    color: #F23935;
+    color: #EB6B69;
 }
 .home-page-design-button {
-    background-color: #F23935;
+    background-color: #EB6B69;
     color: #FFFFFF;
-    border: 1px solid #F23935;
+    border: 1px solid #EB6B69;
     border-radius: 4px;
     padding: 10px 20px;
     margin-top: 15px;
@@ -334,7 +334,7 @@
 
 .home-page-design-button:hover {
     background-color: #FFFFFF;
-    color: #F23935;
+    color: #EB6B69;
 }
 
 .home-page-design-section {

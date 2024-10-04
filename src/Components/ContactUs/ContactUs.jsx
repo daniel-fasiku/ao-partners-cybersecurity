@@ -102,7 +102,7 @@ export default function ContactForm() {
               />
             </div>
           </div>
-          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full">
+          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 relative hover:before:w-full">
           <span class=" font-semibold text-lg z-10">Let's Talk</span>
         </button>
         </div>

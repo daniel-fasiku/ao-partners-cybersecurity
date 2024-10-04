@@ -147,7 +147,7 @@ const Pricing = () => {
                   setOrgSize("1-50 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -287,7 +287,7 @@ const Pricing = () => {
                   setOrgSize("50-100 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -428,7 +428,7 @@ const Pricing = () => {
                   setOrgSize("100 above Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -451,7 +451,7 @@ const Pricing = () => {
                   setOrgSize("");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -718,7 +718,7 @@ const Pricing = () => {
                         <button
                           type="submit"
                           onClick={() => setModalOpen(false)}
-                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full"
+                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 relative hover:before:w-full"
                         >
                           <span class=" font-semibold text-lg z-10">
                             Submit
