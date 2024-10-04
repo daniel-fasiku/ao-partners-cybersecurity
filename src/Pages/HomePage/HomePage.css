@@ -13,7 +13,7 @@
     font-family: Inter;
     font-weight: 500;
     font-size: 40px;
-    color: #1E1E1E;
+    color: #282828;
 }
 
 .home-page-track-record-wrapper {
@@ -87,7 +87,7 @@
     font-family: Space Grotesk;
     font-weight: 500;
     font-size: 40px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
     margin-bottom: 24px;
 }
@@ -96,7 +96,7 @@
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
     margin-bottom: 59px;
 }
@@ -169,7 +169,7 @@
     font-family: Inter;
     font-weight: 600;
     font-size: 40px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
 }
 
@@ -224,7 +224,7 @@
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
 }
 
@@ -276,7 +276,7 @@
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
     border-bottom: 1px solid #7C7C7C;
     padding-bottom: 20px;
@@ -286,7 +286,7 @@
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
     margin-top: 15px;
 }
@@ -374,7 +374,7 @@
     font-family: Space Grotesk;
     font-weight: 600;
     font-size: 34.9px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
 }
 
@@ -382,7 +382,7 @@
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
     margin-top: 15px;
 }
@@ -399,7 +399,7 @@
     font-family: Inter;
     font-weight: 600;
     font-size: 40px;
-    color: #1E1E1E;
+    color: #282828;
     margin: 0px;
 }
 
@@ -429,14 +429,14 @@
 
 .home-page-blogs-content:hover {
     transform: translateY(-10px);
-    border: 1px solid #2F77E6;
+    border: 1px solid #5488C7;
 }
 
 .home-page-blogs-content-title {
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
-    color: #2F77E6;
+    color: #5488C7;
     margin: 0px;
 }
 

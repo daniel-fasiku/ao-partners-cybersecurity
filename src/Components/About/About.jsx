@@ -1,16 +1,17 @@
 import React from 'react'
-import AboutImage from "../../assets/section-image1.png";
-import "../../Pages/HomePage/HomePage.css"
+import AboutImage from "../../assets/section-image1.svg";
+
 
 const About = () => {
   return (
-    <section className="home-page-about">
-          <img src={AboutImage} alt="About" className="home-page-about-image" />
-          <div className="home-page-about-content">
-            <h3 className="home-page-about-title">
+    <div className="w-full py-10 lg:py-20 flex justify-center items-center">
+      <div className='max-w-screen-xl w-full flex flex-col md:flex-row justify-between items-center'>
+          <img src={AboutImage} alt="About" className="w-[455px] h-[535px]" />
+          <div className="flex flex-col justify-start items-center px-10 py-10 md:py-0 max-w-[600px]">
+            <h3 className="text-[40px] font-medium mb-6 text-[#282828]">
               Advanced Vulnerability Assessment / Penetration Testing
             </h3>
-            <p className="home-page-about-text">
+            <p className="text-[20px] text-[#282828] mb-[60px]">
               We are a multi disciplinary firm of technology professionals. We
               are registered consultants with the World Bank, African
               Development Bank and listed on DACON.AO Partners enjoys an
@@ -19,22 +20,23 @@ const About = () => {
               strengthening corporate responsibility, building public trust, and
               making a positive impact in their communities.
             </p>
-            <div className="home-page-about-rating-wrapper">
-              <div className="home-page-about-rating-content1">
-                <h4 className="home-page-about-rating-content1-title">4.9/5</h4>
-                <p className="home-page-about-rating-content1-text">
+            <div className="flex flex-row justify-center items-center gap-[100px]">
+              <div className="flex flex-col items-center justify-center">
+                <h4 className="font-medium text-[40px] text-[#5488C7]">4.9/5</h4>
+                <p className="text-[18px] text-[#515151] ">
                   Customer Rating
                 </p>
               </div>
-              <div className="home-page-about-rating-content2">
-                <h4 className="home-page-about-rating-content2-title">594</h4>
-                <p className="home-page-about-rating-content2-text">
+              <div className="flex flex-col items-center justify-center">
+                <h4 className="font-medium text-[40px] text-[#5488C7] ">594</h4>
+                <p className="text-[18px] text-[#515151] ">
                   Deployed Solutions
                 </p>
               </div>
             </div>
           </div>
-        </section>
+          </div>
+        </div>
   )
 }
 

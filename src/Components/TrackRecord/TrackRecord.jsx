@@ -9,59 +9,59 @@ const TrackRecord = () => {
             Trusted by more than 12+ enterprises worldwide
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-[50px] py-[100px]">
-            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#2F77E6]">
+            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#5488C7]">
               <div className="flex flex-row items-center justify-center">
                 <CountUp
                   start={0}
                   end={15}
                   duration={2.75}
-                  className="font-bold text-[40px] text-[#2F77E6]"
+                  className="font-bold text-[40px] text-[#5488C7]"
                 />
-                <p className="font-bold text-[40px] text-[#2F77E6]">+</p>
+                <p className="font-bold text-[40px] text-[#5488C7]">+</p>
               </div>
-              <p className="font-medium text-[20px] text-[#2F77E6]">
+              <p className="font-medium text-[20px] text-[#5488C7]">
                 Years of experience
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#2F77E6]">
+            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#5488C7]">
               <div className="flex flex-row items-center justify-center">
                 <CountUp
                   start={0}
                   end={50}
                   duration={2.75}
-                  className="font-bold text-[40px] text-[#2F77E6]"
+                  className="font-bold text-[40px] text-[#5488C7]"
                 />
-                <p className="font-bold text-[40px] text-[#2F77E6]">+</p>
+                <p className="font-bold text-[40px] text-[#5488C7]">+</p>
               </div>
-              <p className="font-medium text-[20px] text-[#2F77E6]">
+              <p className="font-medium text-[20px] text-[#5488C7]">
                 Production products
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#2F77E6]">
+            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#5488C7]">
               <div className="flex flex-row items-center justify-center">
                 <CountUp
                   start={0}
                   end={20}
                   duration={2.75}
-                  className="font-bold text-[40px] text-[#2F77E6]"
+                  className="font-bold text-[40px] text-[#5488C7]"
                 />
-                <p className="font-bold text-[40px] text-[#2F77E6]">+</p>
+                <p className="font-bold text-[40px] text-[#5488C7]">+</p>
               </div>
-              <p className="font-medium text-[20px] text-[#2F77E6]">
+              <p className="font-medium text-[20px] text-[#5488C7]">
                 Technologies Used
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#2F77E6]">
+            <div className="flex flex-col items-center justify-center rounded-full h-[250px] w-[250px] border border-[#5488C7]">
               <div className="flex flex-row items-center justify-center">
                 <CountUp
                   start={0}
                   end={12}
                   duration={2.75}
-                  className="font-bold text-[40px] text-[#2F77E6]"
+                  className="font-bold text-[40px] text-[#5488C7]"
                 />
-                <p className="font-bold text-[40px] text-[#2F77E6]">+</p>
+                <p className="font-bold text-[40px] text-[#5488C7]">+</p>
               </div>
-              <p className="font-medium text-[20px] text-[#2F77E6]">
+              <p className="font-medium text-[20px] text-[#5488C7]">
                 Enterprise clients
               </p>
             </div>

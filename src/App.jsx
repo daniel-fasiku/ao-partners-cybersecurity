@@ -10,7 +10,7 @@ import './index.css'
 const App = () => {
   return (
     <BrowserRouter>
-          
+      <NavBar />
       <ScrollToTop />
       <Routes>
         <Route index element={<HomePage />} />

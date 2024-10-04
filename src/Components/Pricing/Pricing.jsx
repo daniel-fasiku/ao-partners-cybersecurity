@@ -10,7 +10,7 @@ const Pricing = () => {
 
   return (
     <div class="bg-white relative isolate">
-      <div
+      {/* <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
       >
@@ -21,7 +21,7 @@ const Pricing = () => {
           }}
           className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
         />
-      </div>
+      </div> */}
       <div class="py-10 lg:py-20  mx-auto max-w-screen-xl ">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h1 class="mb-4 tracking-tight text-3xl text-[#282828] font-semibold">
@@ -147,7 +147,7 @@ const Pricing = () => {
                   setOrgSize("1-50 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -287,7 +287,7 @@ const Pricing = () => {
                   setOrgSize("50-100 Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -428,7 +428,7 @@ const Pricing = () => {
                   setOrgSize("100 above Employees");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -451,7 +451,7 @@ const Pricing = () => {
                   setOrgSize("");
                   setModalOpen(true);
                 }}
-                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
+                class="relative flex h-[60px] rounded-2xl w-[190px] items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 hover:before:w-72"
               >
                 <span class="relative z-10 font-bold text-xl">Get Started</span>
               </button>
@@ -516,7 +516,7 @@ const Pricing = () => {
                               id="employee-size"
                               value={orgSize}
                               onChange={handleChange}
-                              className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset  ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-none focus:border-none focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                              className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset  ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-none focus:border-none focus:ring-[#5488C7] sm:text-sm sm:leading-6"
                             >
                               <option value="">Choose organization size</option>
                               <option value="1-50 Employees">
@@ -683,7 +683,7 @@ const Pricing = () => {
                               name="email"
                               type="email"
                               autoComplete="email"
-                              className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                              className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm sm:leading-6"
                             />
                           </div>
                         </div>
@@ -718,7 +718,7 @@ const Pricing = () => {
                         <button
                           type="submit"
                           onClick={() => setModalOpen(false)}
-                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full"
+                          class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full"
                         >
                           <span class=" font-semibold text-lg z-10">
                             Submit

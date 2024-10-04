@@ -23,7 +23,7 @@ export default function ContactForm() {
                 name="first-name"
                 type="text"
                 autoComplete="given-name"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset  ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-none focus:border-none focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset  ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-none focus:border-none focus:ring-[#5488C7] sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function ContactForm() {
                 name="company"
                 type="text"
                 autoComplete="organization"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function ContactForm() {
                 name="email"
                 type="email"
                 autoComplete="email"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function ContactForm() {
                 <select
                   id="country"
                   name="country"
-                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm"
+                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm"
                 >
                   <option>US</option>
                   <option>CA</option>
@@ -81,7 +81,7 @@ export default function ContactForm() {
                 name="phone-number"
                 type="tel"
                 autoComplete="tel"
-                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -97,12 +97,12 @@ export default function ContactForm() {
                 id="message"
                 name="message"
                 rows={8}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2F77E6] sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset focus:outline-none focus:border-none ring-[#E5E9FF] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#5488C7] sm:text-sm sm:leading-6"
                 defaultValue={''}
               />
             </div>
           </div>
-          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#2F77E6] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full">
+          <button type='submit' class=" flex h-[50px] w-full items-center justify-center overflow-hidden bg-[#5488C7] text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#F23935] before:duration-500 before:ease-out hover:shadow-[#F23935] hover:before:h-56 relative hover:before:w-full">
           <span class=" font-semibold text-lg z-10">Let's Talk</span>
         </button>
         </div>

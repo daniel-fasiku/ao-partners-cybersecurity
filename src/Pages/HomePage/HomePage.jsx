@@ -13,29 +13,32 @@ import ExtraSection from "../../Components/ExtraSection/ExtraSection";
 
 const HomePage = () => {
   return (
-    <div className="w-full overflow-x-hidden flex flex-col justify-center items-center">
+    <div className="w-full overflow-x-hidden flex flex-col justify-center items-center mt-20">
       <section className="w-full">
         <HeroSection />
       </section>
       <section className="w-full">
         <TrackRecord />
       </section>
-      <section id="about" className="w-full">
+      <section id="about" className="w-full px-4 lg:px-6 ">
         <About />
       </section>
-      {/* <section id="services" className="w-full">
+       <section id="services" className="w-full px-4 lg:px-6 ">
         {" "}
         <Services />
       </section>
-      <section className="w-full">
+      
+      <section className="w-full px-4 lg:px-6">
         <AboutExtra />
       </section>
-      <section className="w-full">
+      
+      <section className="w-full px-4 lg:px-6">
         <Design />
       </section>
-      <section id="blogs" className="w-full">
+      
+      <section id="blogs" className="w-full px-4 lg:px-6 ">
         <Blogs />
-      </section> */}
+      </section>
 
       <section id="pricing" className="w-full px-4 lg:px-6 ">
         <Pricing />
