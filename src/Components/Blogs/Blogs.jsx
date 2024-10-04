@@ -14,7 +14,7 @@ const Blogs = () => {
     <div className="w-full py-10 lg:py-20 flex justify-center items-center">
       <div
         id="blogs"
-        className="max-w-screen-xl flex-col justify-center items-center"
+        className=" flex-col justify-center items-center"
       >
         <h3 className="text-[40px] text-[#282828] font-semibold text-center">Our latest blogs</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-7">

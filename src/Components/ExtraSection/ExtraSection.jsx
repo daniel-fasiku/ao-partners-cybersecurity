@@ -4,7 +4,7 @@ import imgsrc from '../../assets/extra-section-svg-1.svg'
 const ExtraSection = () => {
   return (
     <div className='w-full py-10 lg:py-20 flex justify-center items-center'>
-        <div className='w-full max-w-screen-xl rounded-3xl py-16 px-2 sm:px-12 lg:px-16 gap-12 flex flex-col sm:flex-row justify-start items-center bg-[#E5E9FF]' >
+        <div className='w-full  rounded-3xl py-16 px-2 sm:px-12 lg:px-16 gap-12 flex flex-col sm:flex-row justify-start items-center bg-[#E5E9FF]' >
             <img
             src={imgsrc}
             className='w-[250px] h-[230px]'

@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 const AboutExtra = () => {
   return (
     <div className="w-full py-10 lg:py-20 flex justify-center items-center">
-      <div className="max-w-screen-xl w-full flex flex-col md:flex-row justify-between items-center">
+      <div className=" w-full flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col justify-start items-start px-10 py-10 md:py-0 max-w-[600px]">
           <h3 className="text-[40px] font-medium mb-6 text-[#282828]">
             PCI compliance services

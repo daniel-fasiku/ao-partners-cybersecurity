@@ -10,7 +10,7 @@ export default function ContactForm() {
         <h2 className="tracking-tight text-3xl text-[#282828]  font-semibold ">Contact Us</h2>
         
       </div>
-      <form action="#" method="POST" className="mx-auto text-[#282828] mt-8 sm:mt-10 w-full max-w-screen-xl">
+      <form action="#" method="POST" className="mx-auto text-[#282828] mt-8 sm:mt-10 w-full ">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className='flex flex-col gap-2'>
           <div>

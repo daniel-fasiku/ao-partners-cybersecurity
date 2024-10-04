@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 const Design = () => {
   return (
     <div className="w-full py-10 lg:py-20 flex justify-center items-center">
-      <div className="max-w-screen-xl w-full flex justify-center items-center">
+      <div className=" w-full flex justify-center items-center">
         <div className="relative w-full h-[600px]">
           <div
             style={{ backgroundImage: `url(${DesignImage})` }}

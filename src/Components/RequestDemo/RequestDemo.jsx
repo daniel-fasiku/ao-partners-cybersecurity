@@ -1,10 +1,10 @@
 import React from "react";
-import Bg from "../../assets/request-demo-bg.svg"
+import Bg from "../../assets/request-demo-bg.png"
 
 const RequestDemo = () => {
   return (
     <div className="flex w-full justify-center items-center">
-        <div className=" w-full max-w-screen-xl min-h-[500px] px-2 bg-right bg-no-repeat sm:bg-center bg-cover" style={{ backgroundImage: `url(${Bg})` }}>
+        <div className=" w-full  min-h-[500px] px-2 bg-right bg-no-repeat sm:bg-center bg-cover" style={{ backgroundImage: `url(${Bg})` }} >
       <div className="rounded-lg   py-16 flex flex-col justify-start items-center">
         <span className="text-3xl text-[#282828]  font-semibold  pb-4 text-center">
           Ready to Get Started

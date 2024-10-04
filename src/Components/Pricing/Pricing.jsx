@@ -22,7 +22,7 @@ const Pricing = () => {
           className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
         />
       </div> */}
-      <div class="py-10 lg:py-20  mx-auto max-w-screen-xl ">
+      <div class="py-10 lg:py-20  mx-auto  ">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h1 class="mb-4 tracking-tight text-3xl text-[#282828] font-semibold">
             Pricing

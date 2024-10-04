@@ -12,12 +12,12 @@ const Services = () => {
   return (
     <div className="flex justify-center items-center py-10 lg:py-20 ">
 
-      <div className="flex flex-col items-center justify-center gap-50 max-w-screen-xl">
+      <div className="flex flex-col items-center justify-center gap-50 ">
       <div className="flex flex-col items-center justify-center">
         <h3 className="font-medium text-center text-[30px] md:text-[40px] text-[#112244]">
           Our professional cyber security services
         </h3>
-        <p className="max-w-screen-xl font-regular text-center text-[18px] md:text-[20px] text-[#7C7C7C]">
+        <p className=" font-regular text-center text-[18px] md:text-[20px] text-[#7C7C7C]">
           We are a multi disciplinary firm of technology professionals. We are
           registered consultants with the World Bank, African Development Bank
           and listed on DACON.AO Partners enjoys an environment of continuous
