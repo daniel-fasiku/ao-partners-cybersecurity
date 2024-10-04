@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
 import HeroImage from "../../assets/hero-image.jpg";
-import HeroBg from "../../assets/HeroBg.svg"
+import HeroBg from "../../assets/HeroBg.png"
 
 
 const HeroSection = () => {
