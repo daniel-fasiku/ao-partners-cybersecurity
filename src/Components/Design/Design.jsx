@@ -18,8 +18,8 @@ const Design = () => {
             alt="Design"
             className="home-page-design-image-mobile"
           /> */}
-          <div className="absolute bottom-0 right-0 translate-y-1 max-w-[400px] lg:max-w-[500px]  py-9 px-5 h-max flex flex-col bg-white">
-            <h3 className="text-[35px] font-semibild text-[#282828]">Design Framework</h3>
+          <div className="absolute bottom-0 right-0 translate-y-1 scale-x-105 max-w-[400px] lg:max-w-[500px]  py-9 px-5 h-max flex flex-col bg-white">
+            <h3 className="text-3xl font-semibild text-[#282828]">Design Framework</h3>
             <p className="text-[20px] text-[#282828] mt-4">
               AO Partners’ PCI policies framework establishes a foundation for
               sustained compliance and aligns cyber security initiatives, like

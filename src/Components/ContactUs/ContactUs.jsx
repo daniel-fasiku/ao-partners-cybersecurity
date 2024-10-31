@@ -1,10 +1,14 @@
 import React from 'react';
+import ConactSvg from "../../assets/contact.svg"
 
 
 export default function ContactForm() {
 
   return (
-    <div  className="isolate  bg-white py-10 lg:py-20  pb-24 sm:pb-32 w-full ">
+    <div  className="isolate  bg-white  pb-24 sm:pb-32 w-full ">
+      <div className='w-full flex items-center justify-center pb-10 h-[400px]'>
+          <img className='h-full' src={ConactSvg} />
+      </div>
       
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="tracking-tight text-3xl text-[#282828]  font-semibold ">Contact Us</h2>

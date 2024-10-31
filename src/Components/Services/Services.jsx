@@ -10,11 +10,11 @@ const Services = () => {
     setSecurityDataId((prevId) => (prevId === id ? null : id));
   };
   return (
-    <div className="flex justify-center items-center py-10 lg:py-20 ">
+    <div className="flex justify-center items-center py-10 lg:py-20">
 
       <div className="flex flex-col items-center justify-center gap-50 ">
       <div className="flex flex-col items-center justify-center">
-        <h3 className="font-medium text-center text-[30px] md:text-[40px] text-[#112244]">
+        <h3 className="font-medium text-center text-3xl text-[#112244]">
           Our professional cyber security services
         </h3>
         <p className=" font-regular text-center text-[18px] md:text-[20px] text-[#7C7C7C]">
@@ -30,7 +30,7 @@ const Services = () => {
       <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-6">
         {securityData1.map((item) => (
           <>
-            <div className="pl-[18px] pr-10 py-4 bg-white rounded-sm shadow-md w-[360px] h-[350px] flex flex-col cursor-pointer justify-center transition-all ease-in-out hover:translate-y-[-10px]" key={item.id}>
+            <div className="pl-[18px] pr-10 py-4 bg-white rounded-sm shadow-md w-[320px] sm:w-[360px] h-[350px] flex flex-col cursor-pointer justify-center transition-all ease-in-out hover:translate-y-[-10px]" key={item.id}>
               <Icon
                 icon={item.icon}
                 className="w-16 h-16 mb-3"
@@ -49,6 +49,7 @@ const Services = () => {
               >
                 Read More
               </button>
+              
             </div>
           </>
         ))}

@@ -18,6 +18,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 body {
   margin: 0;
 
@@ -25,19 +27,16 @@ body {
   align-items: center;
   justify-content: center;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
 
 }
 
-
-
-
-/**! DEFAULT MOBILE STYLES */
-@media screen and (max-width: 767px) {
-  html, body {
-    overflow-x: hidden;
-    max-width: 100%;
-  }
+section {
+  max-width: 100vw;
 }
+
+
+
+
+

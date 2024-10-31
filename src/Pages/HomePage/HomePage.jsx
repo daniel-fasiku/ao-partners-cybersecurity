@@ -17,13 +17,13 @@ const HomePage = () => {
       <section className="w-full">
         <HeroSection />
       </section>
-      <section className="w-full">
+      <section className="w-full ">
         <TrackRecord />
       </section>
       <section id="about" className="w-full px-4 lg:px-6 ">
         <About />
       </section>
-       <section id="services" className="w-full px-4 lg:px-6 ">
+       <section id="services" className="w-full px-4 lg:px-6 bg-[#fef8f8]">
         {" "}
         <Services />
       </section>
@@ -36,11 +36,11 @@ const HomePage = () => {
         <Design />
       </section>
       
-      <section id="blogs" className="w-full px-4 lg:px-6 ">
+      <section id="blogs" className="w-full px-4 lg:px-6 bg-[#fef8f8] ">
         <Blogs />
       </section>
 
-      <section id="pricing" className="w-full px-4 lg:px-6 ">
+      <section id="pricing" className="w-full px-4 lg:px-6 bg-[#E5E9FF] ">
         <Pricing />
       </section>
       <section id="" className="w-full px-4 lg:px-6">

@@ -9,7 +9,7 @@ const Pricing = () => {
   };
 
   return (
-    <div class="bg-white relative isolate">
+    <div class=" relative isolate">
       {/* <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImage2 from "../../assets/section-image2.svg";
 import { Icon } from "@iconify/react";
+import FloatingPhone from "../FloatingPhone/Phone";
 
 const AboutExtra = () => {
   return (
@@ -22,7 +23,10 @@ const AboutExtra = () => {
             <Icon icon="fa6-solid:arrow-right" />
           </button>
         </div>
-        <img src={AboutImage2} alt="About" className="w-[455px] h-[535px]" />
+        <div className="w-full flex justify-center items-center h-[535px]">
+        <FloatingPhone/>
+        </div>
+        
       </div>
     </div>
   );

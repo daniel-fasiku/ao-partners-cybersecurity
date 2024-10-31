@@ -1,22 +1,28 @@
 import { Icon } from "@iconify/react";
 import HeroImage from "../../assets/hero-image-2.jpg";
 import HeroBg from "../../assets/HeroBg.png"
+import HeroBg2 from "../../assets/HeroBg.svg"
+import HeroNew from "../../assets/hero-new.svg"
+
 
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col w-full bg-white" >
-    <main className="lg:max-h-[calc(100vh-80px)] min-h-max pb-[300px] lg:pb-0 bg-contain bg-bottom bg-fixed md:bg-right xl:h-[768px] bg-no-repeat flex flex-col lg:flex-row justify-start items-start" 
-    style={{ backgroundImage: `url(${HeroImage})` }}
+    <div className="flex flex-col w-full bg-[white]" >
+    <main className="lg:max-h-[calc(100vh-80px)] min-h-max bg-contain bg-bottom bg-fixed md:bg-right xl:h-[768px] bg-no-repeat flex flex-col-reverse lg:flex-row justify-start items-start" 
+    
     
     >
       <div 
         className="w-full h-full bg-white flex flex-col gap-5 p-6 pl-12 lg:pl-24 lg:p-12  lg:w-1/2 ">
         <h1 className="font-medium text-[30px] sm:text-[35px] text-[#282828]">Security Review for Products, Assets & General IT Controls</h1>
         <p className="font-medium text-[18px]  text-[#112244] sm:max-w-[80%] xl:max-w-[400px]">Cyber-attacks present a significant and growing danger that can severely impact individuals and businesses. By staying aware of current threats and implementing appropriate security measures, individuals and organizations can effectively defend themselves against cyber-attacks and lower their risk of being affected by them</p>
-        <button  class="hidden md:flex h-[50px] w-[150px] items-center justify-center overflow-hidden bg-[#5488C7] text-white  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 relative hover:before:w-full">
+        <button  class="flex h-[50px] w-[150px] items-center justify-center overflow-hidden bg-[#5488C7] text-white  transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#EB6B69] before:duration-500 before:ease-out hover:shadow-[#EB6B69] hover:before:h-56 relative hover:before:w-full">
           <span class=" font-semibold z-10 mr-1">Request Demo</span><Icon icon="fa6-solid:arrow-right" />
         </button>
+      </div>
+      <div className="w-full h-full flex p-6 lg:p-12  lg:w-1/2 ">
+      <img className="w-full h-full" src={HeroNew}/>
       </div>
       
     </main>
